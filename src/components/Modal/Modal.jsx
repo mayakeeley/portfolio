@@ -13,7 +13,9 @@ class Modal extends Component {
             <h2>{this.props.projectName}</h2>
             <p>{this.props.desc}</p>
             <p>{this.props.techStack}</p>
-            <a href={this.props.url}>{this.props.url}</a>
+            <a href={this.props.url} rel="noopener noreferrer" target="_blank">
+              {this.props.url}
+            </a>
           </div>
         </div>
       </article>

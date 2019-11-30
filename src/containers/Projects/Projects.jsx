@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Project from "../../components/Project";
-// import quiz from "../../static/images/quiz.jpg";
-import inCollab from "../../static/images/inCollab.jpg";
 import styles from "./Projects.module.css";
 import Modal from "../../components/Modal";
 import data from "../../static/data/data";
@@ -56,13 +54,6 @@ class Projects extends Component {
               />
             );
           })}
-          <Project
-            image={inCollab}
-            projectName="In Collaboration"
-            handleClick={() => {
-              this.handleClick("In Collaboration", inCollab);
-            }}
-          />
         </section>
         <Modal
           image={this.state.image}

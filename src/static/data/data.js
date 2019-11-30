@@ -1,5 +1,6 @@
 import inCollab from "../images/inCollab.jpg";
 import quiz from "../images/quiz.jpg";
+import hanjie from "../images/hanjie.jpg";
 
 const projects = [
   {
@@ -14,6 +15,13 @@ const projects = [
     image: quiz,
     url: "https://quiz.mayakeeley.com",
     techStack: "HTML, CSS, Javascript",
+    desc: ""
+  },
+  {
+    projectName: "Hanjie",
+    image: hanjie,
+    url: "https://hanjie.mayakeeley.com",
+    techStack: "React, Auth?",
     desc: ""
   }
 ];
