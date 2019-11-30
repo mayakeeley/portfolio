@@ -1,0 +1,25 @@
+.info img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.info h1 {
+  font-weight: 200;
+  font-size: 1.8em;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 44px;
+}
+
+.info div {
+  padding: 10px;
+}
+
+.info div > * {
+  padding: 5px;
+}

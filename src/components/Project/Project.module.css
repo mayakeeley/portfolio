@@ -1,0 +1,8 @@
+.projects {
+  height: 240px;
+  width: 240px;
+}
+
+.projects:hover {
+  opacity: 0.5;
+}

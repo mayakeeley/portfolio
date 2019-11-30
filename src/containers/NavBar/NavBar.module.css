@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  border-top: 0.5px solid lightgray;
+  margin: auto;
+  padding: 1px 0;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.options p {
+  font-weight: 400;
+  color: gray;
+  font-size: 0.9em;
+  padding: 0 40px;
+}
+
+.icon {
+  font-size: 1em;
+  padding-right: 5px;
+}

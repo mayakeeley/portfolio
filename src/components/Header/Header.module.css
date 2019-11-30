@@ -1,0 +1,49 @@
+.title img {
+  height: 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 20px;
+  max-width: 840px;
+  margin: auto;
+  background-color: white;
+}
+
+.title h2 {
+  font-weight: 700;
+  color: rgb(38, 38, 38);
+  background-color: white;
+}
+
+.title nav {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  background-color: white;
+}
+
+.title span {
+  font-weight: 400;
+  padding: 0 5px 0 5px;
+  background-color: white;
+}
+
+header {
+  border-bottom: 0.5px solid lightgray;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+a {
+  color: black;
+  font-size: 1.2em;
+}
+
+a:hover {
+  opacity: 0.5;
+}

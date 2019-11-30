@@ -1,8 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
+import Header from "../../components/Header";
+import Info from "../../components/Info";
+import NavBar from "../NavBar";
+import Projects from "../Projects";
 
-function App() {
-  return <div className="App">Maya Keeley</div>;
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <section className="content">
+          <Info />
+          <NavBar />
+          <Projects />
+        </section>
+      </div>
+    );
+  }
 }
 
 export default App;
