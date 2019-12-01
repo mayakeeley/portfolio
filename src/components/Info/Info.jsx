@@ -10,7 +10,7 @@ class Info extends Component {
         <img src={profile} alt="Maya Profile" />
         <div>
           <h1>Maya Keeley</h1>
-          <p>Web Developer</p>
+          <p>Software Developer</p>
           <p>Current _nology student</p>
         </div>
       </section>
