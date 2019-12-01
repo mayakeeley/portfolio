@@ -1,6 +1,7 @@
 import inCollab from "../images/inCollab.jpg";
 import quiz from "../images/quiz.jpg";
 import hanjie from "../images/hanjie.jpg";
+import minesweeper from "../images/minesweeper.jpg";
 
 const projects = [
   {
@@ -9,6 +10,14 @@ const projects = [
     url: "https://incollaboration.nology.io",
     techStack: "React, Reach Router, Firebase, Auth, Firebase Functions",
     desc: "4 week client project created with my colleagues to "
+  },
+  {
+    projectName: "Minesweeper",
+    image: minesweeper,
+    url: "https://minesweeper.nology.io",
+    techStack: "HTML, CSS, Javascript",
+    desc:
+      "3 hour challenge to generate random mines and the corresponding clues for a variety of sizes and mine numbers"
   },
   {
     projectName: "Blackbeard Quiz",

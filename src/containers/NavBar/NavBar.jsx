@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import styles from "./NavBar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faUser, faPalette } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+// import { faUser, faPalette } from "@fortawesome/free-solid-svg-icons";
 
 class NavBar extends Component {
   state = {};
@@ -13,14 +14,14 @@ class NavBar extends Component {
             <FontAwesomeIcon icon={faCode} className={styles.icon} />
             PROJECTS
           </p>
-          <p>
+          {/* <p>
             <FontAwesomeIcon icon={faUser} className={styles.icon} />
             PROFILE
           </p>
           <p>
             <FontAwesomeIcon icon={faPalette} className={styles.icon} />
             INTERESTS
-          </p>
+          </p> */}
         </div>
       </nav>
     );

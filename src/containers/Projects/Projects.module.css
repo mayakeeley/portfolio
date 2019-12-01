@@ -1,5 +1,7 @@
 .projects section {
   display: flex;
   justify-content: space-between;
+  flex: 0 0 33.33333333%;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }

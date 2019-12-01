@@ -1,6 +1,7 @@
 .projects {
   height: 240px;
   width: 240px;
+  margin-bottom: 20px;
 }
 
 .projects:hover {
