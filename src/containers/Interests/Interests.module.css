@@ -1,0 +1,19 @@
+.interests h3 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.interests {
+  display: flex;
+  justify-content: space-between;
+  /* flex: 0 0 33.33333%; */
+}
+
+.interests img {
+  height: 240px;
+  width: 240px;
+}
+
+.interests p {
+  width: 240px;
+}

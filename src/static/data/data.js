@@ -3,6 +3,7 @@ import quiz from "../images/quiz.jpg";
 import hanjie from "../images/hanjie.jpg";
 import minesweeper from "../images/minesweeper.jpg";
 import mirrors from "../images/mirrors.jpg";
+import tugOfWar from "../images/tugOfWar.jpg";
 
 const projects = [
   {
@@ -41,6 +42,13 @@ const projects = [
     techStack: "React, Authentication",
     desc:
       "_nology brief to create a hall of mirrors by using the user's profile photo"
+  },
+  {
+    projectName: "Tug of War",
+    image: tugOfWar,
+    url: "https://tug-of-war.mayakeeley.com",
+    techStack: "HTML, CSS, Vanilla Javascript",
+    desc: "3 hour brief in week 3"
   }
 ];
 

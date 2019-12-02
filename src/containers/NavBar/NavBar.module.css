@@ -15,11 +15,15 @@
 .options p {
   font-weight: 400;
   color: gray;
-  font-size: 0.9em;
   padding: 0 40px;
 }
 
 .icon {
   font-size: 1em;
   padding-right: 5px;
+}
+
+.options > * {
+  text-decoration: none;
+  font-size: 0.9em;
 }
