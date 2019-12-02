@@ -12,7 +12,8 @@ class Profile extends Component {
           opportunities throughout, such as running a retrospective session,
           leading meetings for a client project and have won several awards on
           the course, including ‘Most Valuable Programmer’ and the ‘Product’
-          award.
+          award. I am keen to continue learning and developing beyond the course
+          to widen my knowledge of tech and coding languages.
         </p>
         <br />
         <p>While on this course, I have been training in the following:</p>
