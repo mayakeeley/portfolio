@@ -32,13 +32,50 @@
   padding: 10px;
 }
 
-.background p {
+.close {
   display: block;
   float: right;
   padding: 5px 5px 0 0;
   cursor: pointer;
+  background-color: white;
 }
 
 .description > * {
   background-color: inherit;
+}
+
+.desc {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 90%;
+}
+
+.desc a {
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.tech {
+  font-style: initial;
+  background-color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .background img {
+    height: 250px;
+  }
+  .background p {
+    display: none;
+  }
+  .description {
+    height: 200px;
+  }
+  .desc {
+    height: 175px;
+  }
+  .close {
+    display: block;
+  }
 }

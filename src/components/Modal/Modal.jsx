@@ -9,13 +9,21 @@ class Modal extends Component {
         <div className={styles.modal}>
           <img src={this.props.image} alt={this.props.projectName} />
           <div className={styles.description}>
-            <p onClick={this.props.closeModal}>x</p>
+            <p className={styles.close} onClick={this.props.closeModal}>
+              x
+            </p>
             <h2>{this.props.projectName}</h2>
-            <p>{this.props.desc}</p>
-            <p>{this.props.techStack}</p>
-            <a href={this.props.url} rel="noopener noreferrer" target="_blank">
-              {this.props.url}
-            </a>
+            <div className={styles.desc}>
+              <p>{this.props.desc}</p>
+              <p className={styles.tech}>{this.props.techStack}</p>
+              <a
+                href={this.props.url}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {this.props.url}
+              </a>
+            </div>
           </div>
         </div>
       </article>

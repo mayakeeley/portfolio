@@ -6,6 +6,7 @@
 .interests {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   /* flex: 0 0 33.33333%; */
 }
 
@@ -16,4 +17,10 @@
 
 .interests p {
   width: 240px;
+}
+
+@media screen and (max-width: 480px) {
+  .interests {
+    justify-content: center;
+  }
 }
