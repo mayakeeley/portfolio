@@ -18,8 +18,16 @@
 
 .info div {
   padding: 10px;
+  white-space: nowrap;
 }
 
 .info div > * {
   padding: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .info img {
+    height: 100px;
+    width: 100px;
+  }
 }
