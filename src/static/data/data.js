@@ -4,6 +4,9 @@ import hanjie from "../images/hanjie.jpg";
 import minesweeper from "../images/minesweeper.jpg";
 import mirrors from "../images/mirrors.jpg";
 import tugOfWar from "../images/tugOfWar.jpg";
+import calendar from "../images/calendar.jpg";
+import hangman from "../images/hangman.jpg";
+import onlineCv from "../images/onlineCv.jpg";
 
 const projects = [
   {
@@ -21,6 +24,14 @@ const projects = [
     techStack: "HTML, CSS, Javascript",
     desc:
       "_nology brief: Build a program which generates and visualises the minesweeper (uncovered) game field. Input: 3 parameters – number of rows, number of columns, number of mines. Rules: each field is either empty, mine or number (1-8). Generate a rectangular field based on input number of rows and columns. Place mines randomly in the field – there can be only one mine in each field. Calculate the number clues and display the field. Output: simple visualisation of uncovered game board."
+  },
+  {
+    projectName: "Calendar",
+    image: calendar,
+    url: "https://calendar.mayakeeley.com",
+    techStack: "React, Google Calendar API",
+    desc:
+      "_nology brief: As a Keen Interpretive Dance Institute Enthusiast (KIDIE) I want to be able to see all upcoming events for the Interpretive Dance Institute (IDI) with the ability to narrow down the events to fit my interests and schedule so that I can select the events that I would like to attend."
   },
   {
     projectName: "Hanjie",
@@ -53,6 +64,22 @@ const projects = [
     techStack: "HTML, CSS, Vanilla Javascript",
     desc:
       "_nology brief: Build a tug of war game. Two players should be able to play on one screen. The user that does the most actions enough times wins the tug of war. Requirements: You can reset the game to play as many times as you want without having to refresh the browser and you can see how many times each player has won."
+  },
+  {
+    projectName: "Hangman",
+    image: hangman,
+    url: "https://hangman.mayakeeley.com",
+    techStack: "HTML, CSS, Javascript",
+    desc:
+      "Group _nology brief: Work in a team of three to create a hangman game."
+  },
+  {
+    projectName: "Online CV",
+    image: onlineCv,
+    url: "https://blackbeard.nology.io/maya-keeley/index.html",
+    techStack: "HTML, CSS, Javascript",
+    desc:
+      "_nology project: During the first three weeks of the course, I built my online CV and presented my progress each week to external speakers. After two weeks on the project, I then became the product owner of my project and created user stories for other nologists to work on."
   }
 ];
 

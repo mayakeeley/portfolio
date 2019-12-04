@@ -9,7 +9,11 @@ class Modal extends Component {
         <div className={styles.modal}>
           <img src={this.props.image} alt={this.props.projectName} />
           <div className={styles.description}>
-            <p className={styles.close} onClick={this.props.closeModal}>
+            <p
+              className={styles.close}
+              id={styles.close}
+              onClick={this.props.closeModal}
+            >
               x
             </p>
             <h2>{this.props.projectName}</h2>

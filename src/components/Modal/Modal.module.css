@@ -67,6 +67,10 @@
   .background img {
     height: 250px;
   }
+  .background a,
+  .background h2 {
+    font-size: 0.8em;
+  }
   .background p {
     display: none;
   }
@@ -76,7 +80,7 @@
   .desc {
     height: 175px;
   }
-  .close {
+  #close {
     display: block;
   }
 }
