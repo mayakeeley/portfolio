@@ -12,7 +12,7 @@ const projects = [
   {
     projectName: "In Collaboration",
     image: inCollab,
-    url: "https://incollaboration.nology.io",
+    url: "https://in-collaboration-15021.web.app/",
     techStack: "SCSS, React, Reach Router, Firebase, Auth, Firebase Functions",
     desc:
       "Client project: I worked as part of a team of nine on a client project as part of the _nology training course. During this time we used agile principles, working in sprints with daily standups and weekly retrospectives. The concept was to create a platform for the In Collaboration community to connect on and share ideas and projects. We implemented the use of trello, user stories and paired programming. I worked in a variety of roles, running a retrospective, leading meetings with the client and on the code itself. I, and another team member, taught ourselves how to use firebase functions to send notifications to a mailing list when a post is created on the app."
@@ -72,15 +72,15 @@ const projects = [
     techStack: "HTML, CSS, Javascript",
     desc:
       "Group _nology brief: Work in a team of three to create a hangman game."
-  },
-  {
-    projectName: "Online CV",
-    image: onlineCv,
-    url: "https://blackbeard.nology.io/maya-keeley/index.html",
-    techStack: "HTML, CSS, Javascript",
-    desc:
-      "_nology project: During the first three weeks of the course, I built my online CV and presented my progress each week to external speakers. After two weeks on the project, I then became the product owner of my project and created user stories for other nologists to work on."
   }
+  // {
+  //   projectName: "Online CV",
+  //   image: onlineCv,
+  //   url: "https://blackbeard.nology.io/maya-keeley/index.html",
+  //   techStack: "HTML, CSS, Javascript",
+  //   desc:
+  //     "_nology project: During the first three weeks of the course, I built my online CV and presented my progress each week to external speakers. After two weeks on the project, I then became the product owner of my project and created user stories for other nologists to work on."
+  // }
 ];
 
 export default projects;

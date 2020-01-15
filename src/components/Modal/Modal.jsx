@@ -25,7 +25,7 @@ class Modal extends Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                {this.props.url}
+                Click here to visit site
               </a>
             </div>
           </div>
