@@ -72,15 +72,15 @@ const projects = [
     techStack: "HTML, CSS, Javascript",
     desc:
       "Group _nology brief: Work in a team of three to create a hangman game."
+  },
+  {
+    projectName: "Online CV",
+    image: onlineCv,
+    url: "https://blackbeard.nology.io/maya-keeley",
+    techStack: "HTML, CSS, Javascript",
+    desc:
+      "_nology project: During the first three weeks of the course, I built my online CV and presented my progress each week to external speakers. After two weeks on the project, I then became the product owner of my project and created user stories for other nologists to work on."
   }
-  // {
-  //   projectName: "Online CV",
-  //   image: onlineCv,
-  //   url: "https://blackbeard.nology.io/maya-keeley/index.html",
-  //   techStack: "HTML, CSS, Javascript",
-  //   desc:
-  //     "_nology project: During the first three weeks of the course, I built my online CV and presented my progress each week to external speakers. After two weeks on the project, I then became the product owner of my project and created user stories for other nologists to work on."
-  // }
 ];
 
 export default projects;

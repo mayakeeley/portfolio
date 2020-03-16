@@ -18,14 +18,18 @@ class Modal extends Component {
             </p>
             <h2>{this.props.projectName}</h2>
             <div className={styles.desc}>
-              <p>{this.props.desc}</p>
-              <p className={styles.tech}>{this.props.techStack}</p>
+              <div>
+                <p>{this.props.desc}</p>
+                <br/>
+                <p className={styles.tech}>{this.props.techStack}</p>
+              </div>
               <a
                 href={this.props.url}
                 rel="noopener noreferrer"
                 target="_blank"
+                className={styles.link}
               >
-                Click here to visit site
+                Visit site
               </a>
             </div>
           </div>
